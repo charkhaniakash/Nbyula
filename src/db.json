@@ -1,0 +1,200 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "title": "Graphic Designer",
+      "description": "We are looking for a creative and talented graphic designer to join our team. The ideal candidate will have experience in designing for both print and digital media, with a strong portfolio to showcase their skills. This is a full-time position with competitive salary and benefits.",
+      "location": "New York, NY",
+      "deadline": "2023-05-19",
+      "contact": {
+        "phone": "+1-212-555-0123",
+        "email": "designjobs@company.com"
+      }
+    },
+
+    {
+      "id": 2,
+      "title": "Customer Service Representative",
+      "description": "We are seeking a customer service representative to join our team. The ideal candidate will have excellent communication skills, the ability to handle customer complaints, and experience using customer service software. This is a full-time position with competitive salary and benefits.",
+      "location": "Chicago, IL",
+      "deadline": "2023-05-20",
+      "contact": {
+        "phone": "+1-312-555-0123",
+        "email": "customerservicejobs@company.com"
+      }
+    },
+
+    {
+      "id": 3,
+      "title": "Data Analyst",
+      "description": "We are looking for a data analyst to join our team. The ideal candidate will have experience in SQL, Excel, and data visualization tools such as Tableau or Power BI. This is a full-time position with competitive salary and benefits.",
+      "location": "Seattle, WA",
+      "deadline": "2023-05-19",
+      "contact": {
+        "phone": "+1-206-555-0123",
+        "email": "datajobs@company.com"
+      }
+    },
+
+    {
+      "id": 4,
+      "title": "Software Engineer",
+      "description": "We are seeking a software engineer to join our team. The ideal candidate will have experience in Java, Python, and web development frameworks such as Spring or Django. This is a full-time position with competitive salary and benefits.",
+      "location": "Austin, TX",
+      "deadline": "2023-05-6",
+      "contact": {
+        "phone": "+1-512-555-0123",
+        "email": "softwarejobs@company.com"
+      }
+    },
+
+    {
+      "id": 5,
+      "title": "Marketing Manager",
+      "description": "We are looking for a marketing manager to join our team. The ideal candidate will have experience in developing and implementing marketing campaigns, managing social media accounts, and analyzing marketing data. This is a full-time position with competitive salary and benefits.",
+      "location": "Los Angeles, CA",
+      "deadline": "2023-05-10",
+      "contact": {
+        "phone": "+1-213-555-0123",
+        "email": "marketingjobs@company.com"
+      }
+    },
+
+    {
+      "id": 6,
+      "title": "Product Manager",
+      "description": "We are seeking a product manager to join our team. The ideal candidate will have experience in developing and launching new products, conducting market research, and collaborating with cross-functional teams. This is a full-time position with competitive salary and benefits.",
+      "location": "Boston, MA",
+      "deadline": "2023-05-07",
+      "contact": {
+        "phone": "+1-617-555-0123",
+        "email": "productjobs@company.com"
+      }
+    },
+
+    {
+      "id": 7,
+      "title": "Social Media Specialist",
+      "description": "We are seeking a social media specialist to join our team. The ideal candidate will have experience in managing social media accounts, creating social media content, and analyzing social media metrics. This is a full-time position with competitive salary and benefits.",
+      "location": "San Diego, CA",
+      "deadline": "2023-05-09",
+      "contact": {
+        "phone": "+1-619-555-0123",
+        "email": "socialmediajobs@company.com"
+      }
+    },
+
+    {
+      "id": 8,
+      "title": "Accountant",
+      "description": "We are looking for an accountant to join our team. The ideal candidate will have experience in bookkeeping, tax preparation, and financial statement preparation. This is a full-time position with competitive salary and benefits.",
+      "location": "Atlanta, GA",
+      "deadline": "2023-05-19",
+      "contact": {
+        "phone": "+1-404-555-0123",
+        "email": "accountingjobs@company.com"
+      }
+    },
+
+    {
+      "id": 9,
+      "title": "Human Resources Manager",
+      "description": "We are seeking a human resources manager to join our team. The ideal candidate will have experience in recruiting, onboarding, and managing employee benefits. This is a full-time position with competitive salary and benefits.",
+      "location": "Dallas, TX",
+      "deadline": "2023-04-27",
+      "contact": {
+        "phone": "+1-214-555-0123",
+        "email": "hrjobs@company.com"
+      }
+    },
+
+    {
+      "id": 10,
+      "title": "Sales Representative",
+      "description": "We are looking for a sales representative to join our team. The ideal candidate will have experience in sales, the ability to meet sales targets, and excellent communication skills. This is a full-time position with competitive salary and benefits.",
+      "location": "Miami, FL",
+      "deadline": "2023-04-27",
+      "contact": {
+        "phone": "+1-305-555-0123",
+        "email": "salesjobs@company.com"
+      }
+    },
+
+    {
+      "id": 11,
+      "title": "IT Support Specialist",
+      "description": "We are seeking an IT support specialist to join our team. The ideal candidate will have experience in troubleshooting computer hardware and software issues, and experience with operating systems such as Windows and macOS. This is a full-time position with competitive salary and benefits.",
+      "location": "Denver, CO",
+      "deadline": "2023-04-28",
+      "contact": {
+        "phone": "+1-303-555-0123",
+        "email": "itsupportjobs@company.com"
+      }
+    },
+
+    {
+      "id": 12,
+      "title": "Content Writer",
+      "description": "We are looking for a content writer to join our team. The ideal candidate will have experience in writing for both print and digital media, with a strong portfolio to showcase their skills. This is a full-time position with competitive salary and benefits.",
+      "location": "Portland, OR",
+      "deadline": "2023-04-26",
+      "contact": {
+        "phone": "+1-503-555-0123",
+        "email": "contentjobs@company.com"
+      }
+    },
+
+    {
+      "id": 13,
+      "title": "Graphic Designer",
+      "description": "We are looking for a graphic designer to join our team. The ideal candidate will have experience in creating visual concepts, using computer software to generate designs, and communicating with clients to understand their design needs. This is a full-time position with competitive salary and benefits.",
+      "location": "Seattle, WA",
+      "deadline": "2023-05-17",
+      "contact": {
+        "phone": "+1-206-555-0123",
+        "email": "graphicdesignjobs@company.com"
+      }
+    },
+
+    {
+      "id": 14,
+      "title": "Product Manager",
+      "description": "We are seeking a product manager to join our team. The ideal candidate will have experience in managing product development, conducting market research, and working with cross-functional teams to ensure product success. This is a full-time position with competitive salary and benefits.",
+      "location": "Boston, MA",
+      "deadline": "2023-04-27",
+      "contact": {
+        "phone": "+1-617-555-0123",
+        "email": "productjobs@company.com"
+      }
+    },
+
+    {
+      "id": 15,
+      "title": "Customer Service Representative",
+      "description": "We are looking for a customer service representative to join our team. The ideal candidate will have experience in providing excellent customer service, handling customer complaints, and working with a team to ensure customer satisfaction. This is a full-time position with competitive salary and benefits.",
+      "location": "Chicago, IL",
+      "deadline": "2023-05-8",
+      "contact": {
+        "phone": "+1-312-555-0123",
+        "email": "customerservicejobs@company.com"
+      }
+    },
+
+    {
+      "id": 16,
+      "title": "Web Developer",
+      "description": "We are seeking a web developer to join our team. The ideal candidate will have experience in coding using HTML, CSS, and JavaScript, and experience with front-end frameworks such as React or Angular. This is a full-time position with competitive salary and benefits.",
+      "location": "San Francisco, CA",
+      "deadline": "2023-05-14",
+      "contact": {
+        "phone": "+1-415-555-0123",
+        "email": "webdevjobs@company.com"
+      }
+    }
+  ]
+}
+
+
+
+
+
