@@ -12,11 +12,12 @@ const Home = () => {
   const [store, setStore] = useState([]);
   const [active, setActive] = useState(false);
 
-  console.log(store);
-
   function handleClick(item) {
-    setStore(item);
-    navigate("/interest", { state: { item } });
+    const updatedStore = [...store, item];
+    console.log(updatedStore);
+
+    setStore(updatedStore);
+    navigate("/interest", { state: { item: updatedStore } });
   }
 
   function handleDelete(item) {
@@ -42,14 +43,14 @@ const Home = () => {
   return (
     <DragDropContext onDragEnd={onDragEnd}>
       <Droppable droppableId="characters">
-        {(provided) => (
+        {(provided, snapshot) => (
           <div
             style={{ padding: "20px" }}
             className="characters"
-            {...provided.droppableProps}
             ref={provided.innerRef}
+            {...provided.droppableProps}
           >
-            {data?.data?.map((item) => {
+            {data?.data?.map((item, index) => {
               const deadlineDate = moment(item?.deadline);
               const todayDate = moment();
               const daysRemaining = deadlineDate.diff(todayDate, "days");
@@ -58,9 +59,10 @@ const Home = () => {
                 <Draggable
                   key={item.id}
                   draggableId={item.id.toString()}
+                  index={index}
                   item={item}
                 >
-                  {(provided) => (
+                  {(provided, snapshot) => (
                     <div
                       className="column"
                       key={item?.id}
@@ -129,6 +131,7 @@ const Home = () => {
                 </Draggable>
               );
             })}
+            {provided.placeholder}
           </div>
         )}
       </Droppable>
