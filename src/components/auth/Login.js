@@ -6,7 +6,7 @@ import GoogleIcon from "@mui/icons-material/Google";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../firebase/config";
 import { toast } from "react-toastify";
-import Loader from "../Loader";
+import Loader from "../loader/Loader";
 import { signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 
 const provider = new GoogleAuthProvider();
