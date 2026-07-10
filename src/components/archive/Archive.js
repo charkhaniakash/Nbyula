@@ -1,8 +1,7 @@
 import React from 'react'
-import { useLocations } from 'react-router-dom';
-import moment from "momment";
+import { useLocation } from 'react-router-dom';
+import moment from 'moment';
 const Archive = () => {
-
 
 
   const location = useLocation()
@@ -11,7 +10,7 @@ const Archive = () => {
   console.log(data);
   const deadlineDate = moment(data?.deadline);
   const todayDate = moment();
-  const daysRemaining = deadlineDate.diff(todayDate, "days");
+  const daysRemaining = deadlineDate.diff(todayDate, 'days');
 
 
   return (
