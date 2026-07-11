@@ -1,11 +1,12 @@
 import React from 'react'
 import moment from 'moment';
+import { useLocation } from 'react-router-dom';
 const Archive = () => {
 
 
   const location = useLocation()
   console.log(location.state)
-  const data = location.state?.items;
+  const data = location.state?.item;
   console.log(data);
   const deadlineDate = moment(data?.deadline);
   const todayDate = moment();
