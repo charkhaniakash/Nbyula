@@ -12,10 +12,6 @@ import { toast } from "react-toastify";
 import { auth } from "../firebase/config";
 import Loader from "../loader/Loader";
 import { onAuthStateChanged } from "firebase/auth";
-import {
-  SET_ACTIVE_USER,
-  REMOVE_ACTIVE_USER,
-} from "../../Redux/slice/authSlice";
 
 import imgB from "../../assets/logojob.jpg";
 
