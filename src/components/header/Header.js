@@ -59,7 +59,6 @@ const Header = () => {
           setDisplayName(user.displayName);
         }
 
-        setDisplayName(user.displayName);
         setPhotoURL(user.photoURL);
         dispatch(
           SET_ACTIVE_USER({
@@ -143,16 +142,10 @@ const Header = () => {
                   </a>
                 )}
 
-                {displayName ? (
-                  <>
-                    {!displayName ? (
-                      <NavLink className={activeLink} to="/register">
-                        Register
-                      </NavLink>
-                    ) : (
-                      ""
-                    )}
-                  </>
+                {!displayName ? (
+                  <NavLink className={activeLink} to="/register">
+                    Register
+                  </NavLink>
                 ) : (
                   ""
                 )}
